@@ -1,26 +1,26 @@
 package model;
 
 public class Department {
-	private int deptId;
+	private int deptID;
 	private String deptName;
 	private String location;
 	
 	public Department() {}
 	
-	public Department (int deptId, String deptName, String location) {
+	public Department (int deptID, String deptName, String location) {
 		
-		this.deptId = deptId;
+		this.deptID = deptID;
 		this.deptName = deptName;
 		this.location = location;
 		
 	}
 
-	public int getDeptId() {
-		return deptId;
+	public int getDeptID() {
+		return deptID;
 	}
 
-	public void setDeptId(int deptId) {
-		this.deptId = deptId;
+	public void setDeptID(int deptID) {
+		this.deptID = deptID;
 	}
 
 	public String getDeptName() {
@@ -41,7 +41,7 @@ public class Department {
 	
 	 @Override
 	    public String toString() {
-	        return "Department [deptId=" + deptId + ", deptName=" + deptName + ", location=" + location + "]";
+	        return "Department [deptID=" + deptID + ", deptName=" + deptName + ", location=" + location + "]";
 	 }
 
 }
